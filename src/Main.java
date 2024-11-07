@@ -1,13 +1,11 @@
 public class Main {
     public static void main(String[] args) {
 
-        float third = 1.5F;
-        int damgrvaleba;
+        double a = 4.5;
+        double b = 2;
+        double k;
 
-        if((third%1) < 0.5){
-            damgrvaleba =(int) third;
-        }else{
-            damgrvaleba = ((int) third)+1;
-        }
-        System.out.println("damgrvaleba: " + damgrvaleba);
+        k = Math.sqrt(a*b);
+
+        System.out.println("k=" + k);
     }}
