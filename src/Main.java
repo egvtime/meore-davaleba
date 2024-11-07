@@ -1,24 +1,21 @@
 public class Main {
     public static void main(String[] args) {
 
-        // 0 gaxadet is romelic gindat gamotvalot
+        int year = 2008;
 
-        double F = 1;
-        double C = 0;
-
-        if (C==0 & F ==0){
-            System.out.println("0.0C=32F and 0.0F=-17.(7)");
+        // ver vxvdebi davalebas radgan instruqciis mixedvit ar gamodis martla nakiani wlis gamomtvleli
+        
+            if((year%4) == 0){
+                if(year < 100){
+                    System.out.println("nakiania");
+                }
+                if ((year%400) == 0){
+                    System.out.println("nakiania");
+                }else{
+                    System.out.println("ar aris nakiani");
+                }
+            }else{
+                System.out.println("ar aris nakiani");
+            }
         }
-        if (C!=0 & F!=0) {
-            System.out.println("this equation is disabled");
-        }
-
-        if (F == 0 & C != 0){
-            F=(C*1.8)+32;
-            System.out.println(C + "C=" + F);
-        }
-        if (C == 0 & F != 0){
-            C=(F-32)/1.8;
-            System.out.println(F + "F=" + C);
-        }
-    }}
+    }
