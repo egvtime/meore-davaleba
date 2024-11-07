@@ -1,24 +1,21 @@
 public class Main {
     public static void main(String[] args) {
 
-        int x = -1;
-        int y = 1;
+        String String ="/";
+        double x = 1;
+        double y = 0;
 
-            if (x > 0 & y > 0){
-                System.out.println("pirveli");
-            }
-            if (x < 0 & y > 0){
-            System.out.println("meore");
-            }
-            if (x > 0 & y < 0){
-            System.out.println("meotxe");
-            }
-            if (x < 0 & y < 0){
-            System.out.println("mesame");
-            }
-            if (x == 0 & y == 0){
-            System.out.println("0;0");
-            }
-
+        if(String == "+") {
+            System.out.println(x + y);
+        }
+        if(String == "-") {
+            System.out.println(x - y);
+        }
+        if(String == "*") {
+            System.out.println(x * y);
+        }
+        if(String == "/") {
+            System.out.println(x / y);
+        }
         }
     }
