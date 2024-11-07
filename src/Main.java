@@ -1,11 +1,15 @@
 public class Main {
     public static void main(String[] args) {
 
-        double a = 4.5;
-        double b = 2;
-        double k;
+        int time = 3762; //second
 
-        k = Math.sqrt(a*b);
+            int hour;
+            int minute;
+            int second;
 
-        System.out.println("k=" + k);
+            hour = time/3600;
+            minute = (time%3600)/60;
+            second = (time%60);
+
+        System.out.println(hour + ":" + minute + ":" + second );
     }}
