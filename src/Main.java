@@ -1,21 +1,24 @@
 public class Main {
     public static void main(String[] args) {
 
-        int year = 2008;
+        int x = -1;
+        int y = 1;
 
-        // ver vxvdebi davalebas radgan instruqciis mixedvit ar gamodis martla nakiani wlis gamomtvleli
-        
-            if((year%4) == 0){
-                if(year < 100){
-                    System.out.println("nakiania");
-                }
-                if ((year%400) == 0){
-                    System.out.println("nakiania");
-                }else{
-                    System.out.println("ar aris nakiani");
-                }
-            }else{
-                System.out.println("ar aris nakiani");
+            if (x > 0 & y > 0){
+                System.out.println("pirveli");
             }
+            if (x < 0 & y > 0){
+            System.out.println("meore");
+            }
+            if (x > 0 & y < 0){
+            System.out.println("meotxe");
+            }
+            if (x < 0 & y < 0){
+            System.out.println("mesame");
+            }
+            if (x == 0 & y == 0){
+            System.out.println("0;0");
+            }
+
         }
     }
